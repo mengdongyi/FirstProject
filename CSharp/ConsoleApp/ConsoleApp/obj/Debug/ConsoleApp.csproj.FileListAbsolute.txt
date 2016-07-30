@@ -1,1 +1,6 @@
 D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
