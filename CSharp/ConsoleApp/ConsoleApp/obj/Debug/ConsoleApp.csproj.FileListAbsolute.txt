@@ -1,0 +1,1 @@
+D:\Git\FirstProject\CSharp\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
