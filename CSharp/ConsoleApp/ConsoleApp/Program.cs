@@ -10,10 +10,17 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Dictionary<string, string> dict = new Dictionary<string, string>();
+
+
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Hello World!!!");
+                dict["11"] = i.ToString();
             }
+
+            Console.WriteLine(dict.Values.Count);
+
+
         }
     }
 }
