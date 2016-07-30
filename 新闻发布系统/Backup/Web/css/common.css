@@ -1,0 +1,252 @@
+﻿/*初始化margin,padding,border使所有的浏览器兼容,
+星号表示所有的html标签都执行*/
+*
+{
+	margin:0;
+	padding:0;
+    border-width:0;
+}
+
+body
+{
+	font-size:14px;
+}
+
+#top,#search,#main,#footer /*公共样式*/
+{
+	margin:10px auto 10px auto; /*上,下外边距10象素,左,右外边距自动居中*/
+	width:760px; /*宽度760象素*/
+}
+
+#top /*顶部样式*/
+{
+	height:120px; /*设置顶部内容的高为120象素*/
+}
+
+#top img /*顶部图片样式*/
+{
+	float:left; /*向左浮动*/
+}
+
+#search /*搜索区域*/
+{
+	height:27px; /*搜索内容的高度为27象素*/
+	
+}
+
+#main /*可变内容区域*/
+{
+	
+}
+#footer	/*尾部样式*/
+{
+	text-align:center; /*文本居中*/
+	font-weight:bold; /*字体加粗*/
+    border-top:1px solid #D6D7D6; /*上边框实线1象素灰色*/
+    padding-top:10px; /*上内边距10象素*/
+    clear:left;
+}
+
+a:link,a:visited /*鼠标未移上去的超连接样式和超连接访问后的样式*/
+{
+	color:#000; /*黑色*/
+    text-decoration:none; /*无下划线*/
+}
+
+a:hover /*鼠标移上去的超连接样式*/
+{
+	color:#00f; /*蓝色*/
+	text-decoration:underline; /*有划线*/
+}
+
+#ctl00_txtKey /*搜索关键字文本框样式*/
+{
+    border:1px solid #9CCFFF; /*边框为实线淡蓝色1象素*/
+    background-color: #EFF7FF; /*背景颜色为透明淡蓝色*/
+    height:25px; /*文本框的高度为25象素*/
+    width:480px; /*文本框的宽度为480象素*/
+    font-size:16px; /*文本框内的字体大小为16象素*/
+    line-height:25px; /*文本居中*/
+}
+
+input /*页面的html input标签样式*/
+{
+	vertical-align:middle; /*标签居中*/
+}
+
+.commonframe /*框架公共样式*/
+{
+	border:1px solid #DEDFDE; /*设置边框为实线灰色1象素*/
+	float:left;
+}
+
+.commonframe h4 /*框架标题样式*/
+{
+	color:#fff; /*设置字体为白色*/
+	background-color:#7BAEEF; /*背景色为浅蓝色*/
+	padding:3px 10px; /*设置字体上,下内边距为3象素，左,右内边距为10象素*/
+}
+
+.commonframe table
+{
+	width:100%;
+	text-align:center;
+	border-collapse:collapse; /*细线表格*/
+}
+
+.commonframe table th,.commonframe table td
+{
+	padding:5px; /*内边距150象素*/
+}
+
+.commonframe .th_category /*表格中所属类别的宽度*/
+{
+	width:100px; /*宽度150象素*/
+}
+
+.commonframe .th_time /*表格中发布时间的宽度*/
+{
+	width:150px; /*宽度150象素*/
+}
+
+.commonframe .td_category
+{
+	color:#999;
+}
+
+.commonframe .td_time
+{
+	color:#999;
+	font-size:12px;
+}
+
+ul,li /*项目列表样式*/
+{
+    list-style-type:none; /*去除列表项的项目符号*/
+}
+
+li a:link,li a:visited /*分类名称样式*/
+{
+	color:#00f; /*蓝色*/
+	text-decoration:underline; /*有下划线*/
+	font-weight:bold; /*字体为粗体*/
+}
+
+li /*分类名称样式*/
+{
+	text-align:center;/*字体居中*/
+	margin:20px; /*外边距为20象素*/
+}
+
+li a:hover /*鼠标悬停的时候*/
+{
+	color:#f00; /*红色*/
+}
+
+#category /*新闻分类框架*/
+{
+	width:180px; /*宽度为180象素*/
+	height:373px;
+    margin-right:5px; /*右外边距5象素*/
+}
+
+#newnews /*最新新闻框架*/
+{
+	width:560px; /*宽度为560象素*/
+	margin-left:5px; /*左外边距5象素*/
+	margin-bottom:10px; /*下外边距10象素*/
+}
+
+#hotnews /*热点新闻框架*/
+{
+	width:560px; /*宽度为560象素*/
+	margin-left:5px; /*左外边距5象素*/
+}
+
+#newslist /*新闻列表框架*/
+{
+	margin-left:5px;
+	height:373px;
+}
+
+#newscontent /*新闻内容框架*/
+{
+	width:760px;
+	margin-bottom:10px;
+}
+
+#newscontent p,.replay
+{
+	margin:10px 20px;
+}
+
+#newscontent .con /*新闻内容*/
+{
+	text-indent:2em; /*让段落的首行缩进2个文字*/
+	line-height:20px; /*内容行间距*/
+}
+
+#newscontent .con_time,.replay .replayinfo
+{
+	float:right;
+	font-size:12px;
+	color:#888;
+}
+
+#newscontent a:link,#newscontent a:visited /*我要评论按钮*/
+{
+	background-color:#EFF7FF;
+	border:1px solid #428EFF;
+	width:70px;
+	height:25px;
+	display:block;
+	font-size:12px;
+	text-align:center;
+	line-height:25px;
+	margin-left:20px;
+	color:#0059BD;
+	text-decoration:none;
+}
+
+#newsreplay /*评论回复框架*/
+{
+	width:760px;
+	margin-bottom:10px;
+}
+
+.replay hr /*水平线*/
+{
+	width:650px;
+	clear:right;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.addcomment /*发表评论*/
+{
+	width:760px;
+	margin-bottom:10px;
+    text-align:center;
+    border:1px solid #D6D7D6;
+    background-color:#F7F7F7;
+}
+
+.addcomment .comment_con 
+{
+	width:600px;
+	height:250px;
+	border:1px solid #000;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+.addcomment .btnsubmit
+{
+	border:1px solid #000;
+}
+
+.addcomment .txtcode
+{
+	border:1px solid #000;
+	width:50px;
+}

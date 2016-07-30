@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewsSystem">
+</Property><Property Name="解决方案文件" Value="J:\ASP.NET项目\新闻发布系统\NewsSystem.sln">
+</Property><Property Name="用户选项文件" Value="J:\ASP.NET项目\新闻发布系统\NewsSystem.suo">
+</Property><Property Name="Date" Value="2014年3月5日">
+</Property><Property Name="Time" Value="1:01">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NewsSystem.sln" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\NewsSystem.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NewsSystem.suo" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\NewsSystem.suo">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="项目文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\Model\Model.csproj">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\CateGory.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\Model\CateGory.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Comment.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\Model\Comment.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\News.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\Model\News.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Properties\AssemblyInfo.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\Model\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="Model" Source="Model\Model.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Model" Source="Model\Model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="项目文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\DAL.csproj">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\CateGoryService.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\CateGoryService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\CommentService.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\CommentService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\NewsService.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\NewsService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\Properties\AssemblyInfo.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\SQLHelper.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\DAL\SQLHelper.cs">
+</Event><Event ErrorLevel="1" Project="DAL" Source="DAL\DAL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="DAL" Source="DAL\DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="项目文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\BLL.csproj">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\CateGoryManager.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\CateGoryManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\CommentManager.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\CommentManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\LoginManager.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\LoginManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\NewsManager.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\NewsManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\Properties\AssemblyInfo.cs" Description="文件已成功备份为 J:\ASP.NET项目\新闻发布系统\Backup1\BLL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="BLL" Source="BLL\BLL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="BLL" Source="BLL\BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NewsSystem.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="NewsSystem.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

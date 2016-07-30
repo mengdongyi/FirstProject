@@ -1,0 +1,10 @@
+F:\ASP.NET项目\新闻发布系统\Model\bin\Debug\Model.dll
+F:\ASP.NET项目\新闻发布系统\Model\bin\Debug\Model.pdb
+F:\ASP.NET项目\新闻发布系统\Model\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET项目\新闻发布系统\Model\obj\Debug\Model.dll
+F:\ASP.NET项目\新闻发布系统\Model\obj\Debug\Model.pdb
+E:\新闻发布系统\Model\bin\Debug\Model.dll
+E:\新闻发布系统\Model\bin\Debug\Model.pdb
+E:\新闻发布系统\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\新闻发布系统\Model\obj\Debug\Model.dll
+E:\新闻发布系统\Model\obj\Debug\Model.pdb

@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="common.master.cs" Inherits="common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>首页-孟冬伊新闻发布系统</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <asp:contentplaceholder id="head" runat="server">
+            </asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="top">
+            <!--<a href="Default.aspx"><img src="/web/images/niunanlogo.jpg" alt="LOGO" /></a>-->
+            <a href="http://mdy41034264.cnblogs.com/" target="_blank"><asp:Image ID="Image1" ImageUrl="~/images/test.GIF" runat="server" /></a>
+        </div>
+        <div id="search">
+            搜索条件
+            <asp:RadioButton ID="radTitle" GroupName="cond" runat="server" Text="标题"/>
+            <asp:RadioButton ID="radContent" GroupName="cond" runat="server" Text="内容" />
+            <asp:TextBox ID="txtKey" runat="server"></asp:TextBox>
+            <asp:ImageButton ID="ibtnSearch" ImageUrl="~/images/search.gif" runat="server" OnClick="ibtnSearch_Click" CausesValidation="false" />
+        </div>
+        <div id="main">
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+        </div>
+        <div id="footer">版权所有2008-2010 COPYRIGHT 孟冬伊</div>
+    </form>
+</body>
+</html>

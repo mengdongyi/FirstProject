@@ -1,0 +1,14 @@
+F:\ASP.NET项目\新闻发布系统\DAL\bin\Debug\DAL.dll
+F:\ASP.NET项目\新闻发布系统\DAL\bin\Debug\DAL.pdb
+F:\ASP.NET项目\新闻发布系统\DAL\bin\Debug\Model.dll
+F:\ASP.NET项目\新闻发布系统\DAL\bin\Debug\Model.pdb
+F:\ASP.NET项目\新闻发布系统\DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET项目\新闻发布系统\DAL\obj\Debug\DAL.dll
+F:\ASP.NET项目\新闻发布系统\DAL\obj\Debug\DAL.pdb
+E:\新闻发布系统\DAL\bin\Debug\DAL.dll
+E:\新闻发布系统\DAL\bin\Debug\DAL.pdb
+E:\新闻发布系统\DAL\bin\Debug\Model.dll
+E:\新闻发布系统\DAL\bin\Debug\Model.pdb
+E:\新闻发布系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\新闻发布系统\DAL\obj\Debug\DAL.dll
+E:\新闻发布系统\DAL\obj\Debug\DAL.pdb

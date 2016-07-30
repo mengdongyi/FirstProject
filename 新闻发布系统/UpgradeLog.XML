@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewsSystem">
+</Property><Property Name="方案檔" Value="F:\ASP.NET项目\新闻发布系统\NewsSystem.sln">
+</Property><Property Name="使用者選項檔" Value="F:\ASP.NET项目\新闻发布系统\NewsSystem.suo">
+</Property><Property Name="Date" Value="2011年9月5日">
+</Property><Property Name="Time" Value="19:03">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NewsSystem.sln" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\NewsSystem.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NewsSystem.suo" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\NewsSystem.suo">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="專案檔已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\Model\Model.csproj">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\CateGory.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\Model\CateGory.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Comment.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\Model\Comment.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\News.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\Model\News.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Properties\AssemblyInfo.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\Model\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="Model" Source="Model\Model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="專案檔已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\DAL.csproj">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\CateGoryService.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\CateGoryService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\CommentService.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\CommentService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\NewsService.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\NewsService.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\Properties\AssemblyInfo.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\SQLHelper.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\DAL\SQLHelper.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="DAL" Source="DAL\DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="專案檔已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\BLL.csproj">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\CateGoryManager.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\CateGoryManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\CommentManager.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\CommentManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\LoginManager.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\LoginManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\NewsManager.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\NewsManager.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\Properties\AssemblyInfo.cs" Description="檔案已成功備份為 F:\ASP.NET项目\新闻发布系统\Backup\BLL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="BLL" Source="BLL\BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NewsSystem.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="NewsSystem.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Model" Source="Model\Model.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event></UpgradeLog>

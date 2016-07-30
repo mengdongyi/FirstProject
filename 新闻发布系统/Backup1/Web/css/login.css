@@ -1,0 +1,90 @@
+﻿*
+{
+	margin:0;
+	padding:0;
+}
+
+body 
+{
+	font-size:14px;
+}
+
+.round1
+{
+	width:518px;
+	background-image:url("../images/round1_middle.gif");
+	background-position:center;
+	background-repeat:repeat-y;
+	margin:auto;
+	vertical-align:middle;
+	margin-top:160px;
+}
+
+.round1 h3
+{
+	background-image:url("../images/round1_top.gif");
+	background-position:top;
+	background-repeat:no-repeat;
+	padding:20px 30px;
+}
+
+.round1 #footer
+{
+	background-image:url("../images/round1_bottom.gif");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	padding:20px 100px;
+	padding-left:310px;
+}
+
+a:link,a:visited /*鼠标未移上去的超连接样式和超连接访问后的样式*/
+{
+	color:#000; /*黑色*/
+    text-decoration:none; /*无下划线*/
+}
+
+a:hover /*鼠标移上去的超连接样式*/
+{
+	color:#00f; /*蓝色*/
+	text-decoration:underline; /*有划线*/
+}
+
+#loginfrm #login .login_logs
+{
+    padding-left:10px;
+    padding-right:50px;
+    float:left;
+    float:left;
+    margin-left:20px;
+}
+
+#loginfrm #login p
+{
+    padding-bottom:10px;
+}
+
+.txtcode
+{
+	width:73px;
+}
+
+/*error.htm页面样式*/
+#errorfrm #error img
+{
+	width:230px;
+    float:right;
+    margin-right:50px;
+    margin-bottom:30px;
+}
+
+#errorfrm #error p
+{
+	margin:20px;
+}
+
+#errorfrm #error p span
+{
+	color:#00f;
+	font-size:16px;
+	font-weight:bold;
+}
