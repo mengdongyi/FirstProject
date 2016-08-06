@@ -12,3 +12,10 @@ E:\新闻发布系统\DAL\bin\Debug\Model.pdb
 E:\新闻发布系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\新闻发布系统\DAL\obj\Debug\DAL.dll
 E:\新闻发布系统\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\DAL\obj\Debug\DAL.pdb

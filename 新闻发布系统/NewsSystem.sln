@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{408AF42C-6CB2-44FF-BD88-42D48A1F056D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A79F0BCC-2E0E-4295-96BA-F02E68CED21E}"
@@ -67,16 +69,16 @@ Global
 		{C0AECC2F-6D7F-483C-94E3-1E95395B2949}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0AECC2F-6D7F-483C-94E3-1E95395B2949}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C0AECC2F-6D7F-483C-94E3-1E95395B2949}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|.NET.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|.NET.Build.0 = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Mixed Platforms.Build.0 = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|.NET.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|.NET.Build.0 = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3C57FC00-72B3-46E9-9CD3-32A1A98B5296}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

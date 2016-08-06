@@ -16,3 +16,12 @@ E:\新闻发布系统\BLL\bin\Debug\Model.pdb
 E:\新闻发布系统\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\新闻发布系统\BLL\obj\Debug\BLL.dll
 E:\新闻发布系统\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Desktop\FirstProject\新闻发布系统\BLL\obj\Debug\BLL.pdb
