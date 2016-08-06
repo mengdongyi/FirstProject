@@ -1,0 +1,164 @@
+﻿@model IEnumerable<EF.Message> 
+@{
+    ViewBag.Title = "Mdy留言板";
+}
+<script type="text/javascript">
+    function addMessage() {
+        var nickName = $("#txtNickName").val();
+        var messageContent = $("#txtMessageContent").val();
+        if ($.trim(nickName) == "" || $.trim(messageContent) == "") {
+            alert("请输入昵称或者内容!");
+            return false;
+        }
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Add", "Home")',
+            data: Params(),
+            datatype: "json",
+            success: function (data) {
+                var array = eval(data);
+                $("#tb1").empty();
+                var $th = $("<tr>" + "<th>" + "昵称" + "</th>" + "<th>" + "内容" + "</th>" + "<th>" + "发表时间" + "</th><tr/>");
+                $("#tb1").append($th);
+                for (var i = 0; i < array.length; i++) {
+                    var id = array[i].id;
+                    var nickName = array[i].MessageTitle;
+                    var messageContent = array[i].MessageContent;
+                    var postTime = array[i].PostTime;
+                    var $tr = $("<tr>" + "<td>" + nickName + "</td>" + "<td>" + messageContent + "</td>" + "<td>" + ChangeDateFormat(postTime) + "</td>" + "<td><a href='#' onclick='DelMessage(" + id + ")'>删除</a></td><tr/>");
+                    $("#tb1").append($tr);
+                }
+            },
+            error: function () {
+                alert("处理失败!");
+            }
+        });
+    }
+
+    function Params() {
+        return {
+            nickName: $("#txtNickName").val(),
+            messageContent: $("#txtMessageContent").val()
+        };
+    }
+
+    function ChangeDateFormat(time) {
+        if (time != null) {
+            var date = new Date(parseInt(time.replace("/Date(", "").replace(")/", ""), 10));
+            var month = date.getMonth() + 1 < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
+            var currentDate = date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+            return date.getFullYear() + "-" + month + "-" + currentDate;
+        }
+        return "";
+    }
+
+    function DelMessage(id) {
+        var flag = confirm("是否删除");
+        if (!flag) {
+            return false;
+        }
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Delete", "Home")',
+            data: {id:id},
+            datatype: "json",
+            success: function (data) {
+                var array = eval(data);
+                $("#tb1").empty();
+                var $th = $("<tr>" + "<th>" + "昵称" + "</th>" + "<th>" + "内容" + "</th>" + "<th>" + "发表时间" + "</th><tr/>");
+                $("#tb1").append($th);
+                for (var i = 0; i < array.length; i++) {
+                    var id = array[i].id;
+                    var nickName = array[i].MessageTitle;
+                    var messageContent = array[i].MessageContent;
+                    var postTime = array[i].PostTime;
+                    var $tr = $("<tr>" + "<td>" + nickName + "</td>" + "<td>" + messageContent + "</td>" + "<td>" + ChangeDateFormat(postTime) + "</td>"+"<td><a href='#' onclick='DelMessage("+id+")'>删除</a></td><tr/>");
+                    $("#tb1").append($tr);
+                }
+            },
+            error: function () {
+                alert("处理失败!");
+            }
+        });
+    }
+
+    function Modify(id, messageTitle, messageContent) {
+        $("#txtNickName").val(messageTitle);
+        $("#txtMessageContent").val(messageContent);
+    }
+
+
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Add", "Home")',
+            datatype: "json",
+            success: function (data) {
+                var array = eval(data);
+                $("#tb1").empty();
+                var $th = $("<tr>" + "<th>" + "昵称" + "</th>" + "<th>" + "内容" + "</th>" + "<th>" + "发表时间" + "</th><tr/>");
+                $("#tb1").append($th);
+                for (var i = 0; i < array.length; i++) {
+                    var id = array[i].id;
+                    var nickName = array[i].MessageTitle;
+                    var messageContent = array[i].MessageContent;
+                    var postTime = array[i].PostTime;
+                    var $tr = $("<tr>" + "<td>" + nickName + "</td>" + "<td>" + messageContent + "</td>" + "<td>" + ChangeDateFormat(postTime) + "</td>" + "<td><a href='#' onclick='DelMessage(" + id + ")'>删除</a></td><td><a href='#' onclick='Modify("+id+","+nickName+","+messageContent+")'>修改</a></td><tr/>");
+                    $("#tb1").append($tr);
+                }
+            },
+            error: function () {
+                alert("处理失败!");
+            }
+        });
+
+    })
+</script>
+<style type="text/css">
+    .ly
+    {
+        margin: 10px;
+        border-bottom: 1px dashed black;
+        padding: 5px;
+    }
+    .ly1
+    {
+        text-indent: 2em;
+    }
+    #tb1
+    {
+        border-collapse:collapse;
+    }
+    #tb1 td
+    {
+        border:1px solid black;
+    }
+</style>
+<h1>
+    EF留言板</h1>
+<div class="ly">
+    MDY 发表于 2014/4/5
+    <div class="ly1">
+    </div>
+    <div>
+        <a href="#">删除</a>
+    </div>
+    <div>
+        分页</div>
+    <fieldset>
+        <legend>我要留言</legend>
+        <div>
+            昵称：</div>
+        <div>
+            <input type="text" id="txtNickName" /></div>
+        <div>
+            留言内容：</div>
+        <div>
+            <textarea id="txtMessageContent" cols="35" rows="8"></textarea>
+        </div>
+        <div>
+            <input type="button" value="发表" id="btnPost" onclick="addMessage()" /></div>
+    </fieldset>
+</div>
+<table id="tb1">
+</table>
