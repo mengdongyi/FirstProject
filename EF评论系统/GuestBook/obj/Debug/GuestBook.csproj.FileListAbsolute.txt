@@ -14,3 +14,13 @@ E:\古大项目\GuestBook\bin\EF.pdb
 E:\古大项目\GuestBook\obj\Debug\GuestBook.csprojResolveAssemblyReference.cache
 E:\古大项目\GuestBook\obj\Debug\GuestBook.dll
 E:\古大项目\GuestBook\obj\Debug\GuestBook.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\GuestBook.dll.config
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\GuestBook.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\GuestBook.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\EF.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\bin\EF.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\obj\Debug\GuestBook.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\obj\Debug\GuestBook.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\GuestBook\obj\Debug\GuestBook.pdb

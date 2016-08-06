@@ -14,3 +14,11 @@ E:\古大项目\DAL\bin\Debug\EF.pdb
 E:\古大项目\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\古大项目\DAL\obj\Debug\DAL.dll
 E:\古大项目\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\bin\Debug\DAL.dll.config
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\bin\Debug\EF.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\bin\Debug\EF.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\DAL\obj\Debug\DAL.pdb

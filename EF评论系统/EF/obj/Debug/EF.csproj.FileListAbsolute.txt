@@ -10,3 +10,9 @@ E:\古大项目\EF\bin\Debug\EF.pdb
 E:\古大项目\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
 E:\古大项目\EF\obj\Debug\EF.dll
 E:\古大项目\EF\obj\Debug\EF.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\bin\Debug\EF.dll.config
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\bin\Debug\EF.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\bin\Debug\EF.pdb
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\obj\Debug\EF.dll
+C:\Users\Administrator\Desktop\FirstProject\EF评论系统\EF\obj\Debug\EF.pdb
