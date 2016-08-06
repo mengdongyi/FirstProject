@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MessageModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="MessageModelStoreContainer">
+          <EntitySet Name="Login" EntityType="MessageModel.Store.Login" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Message" EntityType="MessageModel.Store.Message" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="userName" Type="nvarchar" MaxLength="50" />
+          <Property Name="pwd" Type="nvarchar" MaxLength="50" />
+          <Property Name="errorTimes" Type="int" />
+          <Property Name="time" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MessageTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="MessageContent" Type="nvarchar" MaxLength="800" />
+          <Property Name="PostTime" Type="datetime" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MessageModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="MessageEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Logins" EntityType="MessageModel.Login" />
+          <EntitySet Name="Messages" EntityType="MessageModel.Message" />
+        </EntityContainer>
+        <EntityType Name="Login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Guid" Nullable="false" />
+          <Property Name="userName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="pwd" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="errorTimes" Type="Int32" />
+          <Property Name="time" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MessageTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MessageContent" Type="String" MaxLength="800" Unicode="true" FixedLength="false" />
+          <Property Name="PostTime" Type="DateTime" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MessageModelStoreContainer" CdmEntityContainer="MessageEntities">
+          <EntitySetMapping Name="Logins"><EntityTypeMapping TypeName="MessageModel.Login"><MappingFragment StoreEntitySet="Login">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="userName" ColumnName="userName" />
+            <ScalarProperty Name="pwd" ColumnName="pwd" />
+            <ScalarProperty Name="errorTimes" ColumnName="errorTimes" />
+            <ScalarProperty Name="time" ColumnName="time" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Messages"><EntityTypeMapping TypeName="MessageModel.Message"><MappingFragment StoreEntitySet="Message">
+            <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="MessageTitle" ColumnName="MessageTitle" />
+            <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
+            <ScalarProperty Name="PostTime" ColumnName="PostTime" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Message">
+        <EntityTypeShape EntityType="MessageModel.Login" Width="1.5" PointX="0.75" PointY="0.75" Height="1.9700325520833331" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessageModel.Message" Width="1.5" PointX="2.75" PointY="0.75" Height="1.7790128580729174" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+@using (@Html.BeginForm("Login","Home",FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                用户名：
+            </td>
+            <td>
+                @Html.TextBox("userName")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                密码：
+            </td>
+            <td>
+               @Html.Password("pwd")
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="登录" />
+}
+
+@Html.Partial("FenBu");

@@ -7,3 +7,11 @@ E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\GenerateResource.
 E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.exe
 E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.pdb
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\bin\Debug\MyChatRoomClient.exe
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\bin\Debug\MyChatRoomClient.pdb
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.Form1.resources
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.exe
+C:\Users\Administrator\Desktop\FirstProject\聊天程序\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.pdb

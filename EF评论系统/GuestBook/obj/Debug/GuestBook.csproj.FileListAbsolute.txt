@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\bin\EF.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\bin\DAL.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\bin\DAL.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\bin\EF.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\obj\Debug\GuestBook.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\GuestBook\obj\Debug\GuestBook.pdb
+E:\古大项目\GuestBook\bin\GuestBook.dll
+E:\古大项目\GuestBook\bin\GuestBook.pdb
+E:\古大项目\GuestBook\bin\DAL.dll
+E:\古大项目\GuestBook\bin\EF.dll
+E:\古大项目\GuestBook\bin\DAL.pdb
+E:\古大项目\GuestBook\bin\EF.pdb
+E:\古大项目\GuestBook\obj\Debug\GuestBook.csprojResolveAssemblyReference.cache
+E:\古大项目\GuestBook\obj\Debug\GuestBook.dll
+E:\古大项目\GuestBook\obj\Debug\GuestBook.pdb

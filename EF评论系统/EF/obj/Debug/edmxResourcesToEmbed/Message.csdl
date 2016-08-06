@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MessageModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MessageEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Logins" EntityType="MessageModel.Login" />
+    <EntitySet Name="Messages" EntityType="MessageModel.Message" />
+  </EntityContainer>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Guid" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="pwd" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="errorTimes" Type="Int32" />
+    <Property Name="time" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MessageTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MessageContent" Type="String" MaxLength="800" Unicode="true" FixedLength="false" />
+    <Property Name="PostTime" Type="DateTime" />
+  </EntityType>
+</Schema>

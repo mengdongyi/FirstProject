@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MessageModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MessageModelStoreContainer">
+    <EntitySet Name="Login" EntityType="MessageModel.Store.Login" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Message" EntityType="MessageModel.Store.Message" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="userName" Type="nvarchar" MaxLength="50" />
+    <Property Name="pwd" Type="nvarchar" MaxLength="50" />
+    <Property Name="errorTimes" Type="int" />
+    <Property Name="time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MessageTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="MessageContent" Type="nvarchar" MaxLength="800" />
+    <Property Name="PostTime" Type="datetime" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,16 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\bin\Debug\DAL.dll.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\bin\Debug\EF.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\bin\Debug\EF.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\DAL\obj\Debug\DAL.pdb
+E:\古大项目\DAL\bin\Debug\DAL.dll.config
+E:\古大项目\DAL\bin\Debug\DAL.dll
+E:\古大项目\DAL\bin\Debug\DAL.pdb
+E:\古大项目\DAL\bin\Debug\EF.dll
+E:\古大项目\DAL\bin\Debug\EF.pdb
+E:\古大项目\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\古大项目\DAL\obj\Debug\DAL.dll
+E:\古大项目\DAL\obj\Debug\DAL.pdb

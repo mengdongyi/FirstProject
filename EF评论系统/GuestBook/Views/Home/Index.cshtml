@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    Index</h2>
+<script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+<script type="text/javascript">
+    function query() {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("List", "Home")',
+            datatype: "html",
+            success: function (data) {
+                $("#divData").html(data);
+            },
+            error: function () {
+                alert("处理失败");
+            }
+        })
+    }
+
+
+    $(function () {
+        $("#btnQuery").click(function () {
+            query();
+        })
+
+    })
+        
+</script>
+<input type="button" value="查询数据" id="btnQuery" />
+<div id="divData">
+</div>

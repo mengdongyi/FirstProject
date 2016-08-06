@@ -1,0 +1,12 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\bin\Debug\EF.dll.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\bin\Debug\EF.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\bin\Debug\EF.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\obj\Debug\EF.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\GuestBook\EF\obj\Debug\EF.pdb
+E:\古大项目\EF\bin\Debug\EF.dll.config
+E:\古大项目\EF\bin\Debug\EF.dll
+E:\古大项目\EF\bin\Debug\EF.pdb
+E:\古大项目\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+E:\古大项目\EF\obj\Debug\EF.dll
+E:\古大项目\EF\obj\Debug\EF.pdb
