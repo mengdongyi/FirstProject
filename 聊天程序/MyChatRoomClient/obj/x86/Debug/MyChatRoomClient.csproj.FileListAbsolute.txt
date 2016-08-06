@@ -1,0 +1,9 @@
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\bin\Debug\MyChatRoomClient.exe
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\bin\Debug\MyChatRoomClient.pdb
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.Form1.resources
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.Properties.Resources.resources
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.exe
+E:\.NETConsole\MyChatRoomServer\MyChatRoomClient\obj\x86\Debug\MyChatRoomClient.pdb
