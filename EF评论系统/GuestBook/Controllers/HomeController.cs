@@ -20,7 +20,7 @@ namespace GuestBook.Controllers
             return View("Add");
         }
 
-        [Filter.LoginFilter]
+        //[Filter.LoginFilter]
         public JsonResult Add()
         {
             JsonResult jr = new JsonResult();
